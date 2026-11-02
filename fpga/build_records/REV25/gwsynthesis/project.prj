@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE gowin-synthesis-project>
+<Project>
+    <Version>beta</Version>
+    <Device id="GW2A-55C" package="PBGA484" speed="8" partNumber="GW2A-LV55PG484C8/I7"/>
+    <FileList>
+        <File path="../../../src/common/crc8.v" type="verilog"/>
+        <File path="../../../src/common/uart_rx.v" type="verilog"/>
+        <File path="../../../src/common/uart_tx.v" type="verilog"/>
+        <File path="../../../src/debug/param_regs.v" type="verilog"/>
+        <File path="../../../src/debug/capture.v" type="verilog"/>
+        <File path="../../../src/debug/dbg_proto.v" type="verilog"/>
+        <File path="../../../src/debug/dbg_top.v" type="verilog"/>
+        <File path="../../../src/control/pend_top.v" type="verilog"/>
+        <File path="../../../src/control/adc_capture.v" type="verilog"/>
+        <File path="../../../src/control/encoder_decode.v" type="verilog"/>
+        <File path="../../../src/control/pwm_gen.v" type="verilog"/>
+        <File path="../../../src/control/pid_q16.v" type="verilog"/>
+        <File path="../../../src/control/fuzzy_pid_q16.v" type="verilog"/>
+        <File path="../../../src/control/safety_guard.v" type="verilog"/>
+        <File path="../../../src/control/position_feedback.v" type="verilog"/>
+        <File path="../../../src/control/friction_state.v" type="verilog"/>
+        <File path="../../../src/control/swing_once.v" type="verilog"/>
+        <File path="../../../src/control/start_button.v" type="verilog"/>
+        <File path="../../../src/control/key_motion_target.v" type="verilog"/>
+        <File path="../../../src/control/motion_profile_rom.v" type="verilog"/>
+        <File path="../../../src/control/motion_profile_sequencer.v" type="verilog"/>
+        <File path="../../../src/control/spin_trajectory.v" type="verilog"/>
+        <File path="../../../src/control/quiet_guard.v" type="verilog"/>
+        <File path="../../../src/control/tof_receiver.v" type="verilog"/>
+    </FileList>
+    <OptionList>
+        <Option type="disable_insert_pad" value="0"/>
+        <Option type="dsp_style" value="auto"/>
+        <Option type="global_freq" value="100.000"/>
+        <Option type="looplimit" value="2000"/>
+        <Option type="map_option" value="1"/>
+        <Option type="max_fanout" value="40"/>
+        <Option type="netlist_hierarchy" value="1"/>
+        <Option type="opt_goal" value="auto"/>
+        <Option type="output_file" value="project.vg"/>
+        <Option type="print_all_synthesis_warning" value="0"/>
+        <Option type="ram_rw_check" value="0"/>
+        <Option type="ram_style" value="auto"/>
+        <Option type="rom_style" value="auto"/>
+        <Option type="shift_reg" value="auto"/>
+        <Option type="top_module" value="pend_top"/>
+        <Option type="vcc" value="1.0"/>
+        <Option type="verilog_language" value="verilog-2001"/>
+        <Option type="vhdl_language" value="vhdl-1993"/>
+    </OptionList>
+</Project>

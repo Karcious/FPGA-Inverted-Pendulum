@@ -1,0 +1,104 @@
+{
+  "version": "REV25 / 0x00020719",
+  "control_source_commit": "43a565e85f3b6d28b4622c190ae183e3a2c7cc88",
+  "tool": "Gowin V1.9.12.03 (64-bit)",
+  "device": "GW2A-LV55PG484C8/I7",
+  "build_entry": "fpga/scripts/build.tcl",
+  "constraint_MHz": 50.0,
+  "fmax_MHz": 50.19,
+  "worst_setup_slack_ns": 0.076,
+  "setup_violations": 0,
+  "hold_violations": 0,
+  "released_fs_sha256": "a5a701bd1fcb763bdb4ecbb2437c9edbb0e6c8f5aca2f07eee7f1101bd2664f5",
+  "rebuilt_fs_sha256": "f2b1fbbab8602386b9a166e36dd58862539ae4db66f0de7f1a9bdc978ce89245",
+  "bitstream_payload_sha256": "c64b7b3289ddd451ab5d506cf0d66e8ab260468109dc50936f19ab5d2c235e47",
+  "fs_difference": "Only the Created Time header differs; programming data are identical.",
+  "packaging": "Netlist explanatory comments removed without changing tokens; project.prj and cmd.do file paths made relative to their containing directories.",
+  "files": {
+    "gwsynthesis/project.log": {
+      "original_sha256": "660b97e87ce77328dd70d69f5f3b56564c3577ddf0cfcb6bd79cac000bd03561",
+      "sha256": "660b97e87ce77328dd70d69f5f3b56564c3577ddf0cfcb6bd79cac000bd03561",
+      "bytes": 22709
+    },
+    "gwsynthesis/project.prj": {
+      "original_sha256": "1f30b156859f11d1ee994bb21c3e32b67ca1cd0f74a9df8ed20f2773275f4274",
+      "sha256": "03e9c91ac07bdfd43648d0a8cf543c681e4c3fad451382d873780e199307f598",
+      "bytes": 2949
+    },
+    "gwsynthesis/project.vg": {
+      "original_sha256": "9a744795d771d9901ff6f691779adfec71f8839120bd49531fd117b0790e2c17",
+      "sha256": "46738c8b78c472db6b0417681602ae86fb3d459fb9e0ea564e4750c9ab4203e6",
+      "bytes": 5713547
+    },
+    "gwsynthesis/project_syn.rpt.html": {
+      "original_sha256": "f85c5dc23941010204ceeed69e99a47d7ca7fc3f2de4a58731c5fa6a48b30d84",
+      "sha256": "f85c5dc23941010204ceeed69e99a47d7ca7fc3f2de4a58731c5fa6a48b30d84",
+      "bytes": 287288
+    },
+    "gwsynthesis/project_syn_resource.html": {
+      "original_sha256": "50734295823678eef76bf09970bfa1a9af30599a840eb510ee4c3162ac50ceb2",
+      "sha256": "50734295823678eef76bf09970bfa1a9af30599a840eb510ee4c3162ac50ceb2",
+      "bytes": 12971
+    },
+    "gwsynthesis/project_syn_rsc.xml": {
+      "original_sha256": "ae7edf26f815b5062cbe7bd2de02d0db70f9cd7394e137a986cfe0e37d2f293c",
+      "sha256": "ae7edf26f815b5062cbe7bd2de02d0db70f9cd7394e137a986cfe0e37d2f293c",
+      "bytes": 3950
+    },
+    "pnr/cmd.do": {
+      "original_sha256": "a86490240483adcc4643beaff950ad5bec48bd7a5a31d0af221f38dd90c99b1c",
+      "sha256": "5d9daf67764b8a12e508f875941435261af285fd16687557262e4834d2da92b7",
+      "bytes": 304
+    },
+    "pnr/device.cfg": {
+      "original_sha256": "7339aadd1826a67e6ec943173b944fd7105dd5813ca21667aedcc87fb173b9cc",
+      "sha256": "7339aadd1826a67e6ec943173b944fd7105dd5813ca21667aedcc87fb173b9cc",
+      "bytes": 576
+    },
+    "pnr/project.log": {
+      "original_sha256": "de11dfec4c701ce94ea08d84feb43675f877cde3d4754c5172d4b6440ff6f7a6",
+      "sha256": "de11dfec4c701ce94ea08d84feb43675f877cde3d4754c5172d4b6440ff6f7a6",
+      "bytes": 1673
+    },
+    "pnr/project.pin.html": {
+      "original_sha256": "c166de72d8050e0df5f390f92ea5d1760b06011f12bb162d500c87ef9f7a77f0",
+      "sha256": "c166de72d8050e0df5f390f92ea5d1760b06011f12bb162d500c87ef9f7a77f0",
+      "bytes": 90146
+    },
+    "pnr/project.power.html": {
+      "original_sha256": "a7c614fd99cc65ba40fc775f4ee01cca7f475c4370891e60cccfa86d9da3b809",
+      "sha256": "a7c614fd99cc65ba40fc775f4ee01cca7f475c4370891e60cccfa86d9da3b809",
+      "bytes": 9896
+    },
+    "pnr/project.rpt.html": {
+      "original_sha256": "3af9cdda2019a6396c437ad4a9e01d60ef7915e7b174984a3a7af9b757f1c4cd",
+      "sha256": "3af9cdda2019a6396c437ad4a9e01d60ef7915e7b174984a3a7af9b757f1c4cd",
+      "bytes": 95873
+    },
+    "pnr/project.rpt.txt": {
+      "original_sha256": "e1f58700af499989cdb9534371f4c8b3a18b0704ec41c186aebf55d5fcf7d53c",
+      "sha256": "e1f58700af499989cdb9534371f4c8b3a18b0704ec41c186aebf55d5fcf7d53c",
+      "bytes": 75281
+    },
+    "pnr/project.timing_paths": {
+      "original_sha256": "f21b511467c3bcf4b2bbc55101c4ee7fdfb9d3a5530408b83255b824cea06f6c",
+      "sha256": "f21b511467c3bcf4b2bbc55101c4ee7fdfb9d3a5530408b83255b824cea06f6c",
+      "bytes": 31987
+    },
+    "pnr/project.tr.html": {
+      "original_sha256": "8d381d14ca42f8a4e26edaeb8ca109e30e870350ab4cc6ce1a09772c43063e2b",
+      "sha256": "8d381d14ca42f8a4e26edaeb8ca109e30e870350ab4cc6ce1a09772c43063e2b",
+      "bytes": 349
+    },
+    "pnr/project_tr_cata.html": {
+      "original_sha256": "814a2a205c76d19e54de3b179268a4f9cc2e8e6fcbda4368630f5b10938f186a",
+      "sha256": "814a2a205c76d19e54de3b179268a4f9cc2e8e6fcbda4368630f5b10938f186a",
+      "bytes": 7784
+    },
+    "pnr/project_tr_content.html": {
+      "original_sha256": "47fef9a018447a61d94407156963c1bbe2bb13b39087c557719840689fdf9207",
+      "sha256": "47fef9a018447a61d94407156963c1bbe2bb13b39087c557719840689fdf9207",
+      "bytes": 618889
+    }
+  }
+}

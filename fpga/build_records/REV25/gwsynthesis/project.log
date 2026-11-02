@@ -1,0 +1,137 @@
+GowinSynthesis start
+Running parser ...
+Analyzing Verilog file 'E:\FPGAcompetition\competition_rev25_20261102\FPGA-Inverted-Pendulum\fpga\src\common\crc8.v'
+Analyzing Verilog file 'E:\FPGAcompetition\competition_rev25_20261102\FPGA-Inverted-Pendulum\fpga\src\common\uart_rx.v'
+Analyzing Verilog file 'E:\FPGAcompetition\competition_rev25_20261102\FPGA-Inverted-Pendulum\fpga\src\common\uart_tx.v'
+Analyzing Verilog file 'E:\FPGAcompetition\competition_rev25_20261102\FPGA-Inverted-Pendulum\fpga\src\debug\param_regs.v'
+Analyzing Verilog file 'E:\FPGAcompetition\competition_rev25_20261102\FPGA-Inverted-Pendulum\fpga\src\debug\capture.v'
+Analyzing Verilog file 'E:\FPGAcompetition\competition_rev25_20261102\FPGA-Inverted-Pendulum\fpga\src\debug\dbg_proto.v'
+Analyzing included file 'E:\FPGAcompetition\competition_rev25_20261102\FPGA-Inverted-Pendulum\fpga\src\debug\dbg_pkg.vh'("E:\FPGAcompetition\competition_rev25_20261102\FPGA-Inverted-Pendulum\fpga\src\debug\dbg_proto.v":3)
+Back to file 'E:\FPGAcompetition\competition_rev25_20261102\FPGA-Inverted-Pendulum\fpga\src\debug\dbg_proto.v'("E:\FPGAcompetition\competition_rev25_20261102\FPGA-Inverted-Pendulum\fpga\src\debug\dbg_proto.v":3)
+Analyzing Verilog file 'E:\FPGAcompetition\competition_rev25_20261102\FPGA-Inverted-Pendulum\fpga\src\debug\dbg_top.v'
+Analyzing included file 'E:\FPGAcompetition\competition_rev25_20261102\FPGA-Inverted-Pendulum\fpga\src\debug\dbg_pkg.vh'("E:\FPGAcompetition\competition_rev25_20261102\FPGA-Inverted-Pendulum\fpga\src\debug\dbg_top.v":3)
+Back to file 'E:\FPGAcompetition\competition_rev25_20261102\FPGA-Inverted-Pendulum\fpga\src\debug\dbg_top.v'("E:\FPGAcompetition\competition_rev25_20261102\FPGA-Inverted-Pendulum\fpga\src\debug\dbg_top.v":3)
+Analyzing Verilog file 'E:\FPGAcompetition\competition_rev25_20261102\FPGA-Inverted-Pendulum\fpga\src\control\pend_top.v'
+Analyzing included file 'E:\FPGAcompetition\competition_rev25_20261102\FPGA-Inverted-Pendulum\fpga\src\debug\dbg_pkg.vh'("E:\FPGAcompetition\competition_rev25_20261102\FPGA-Inverted-Pendulum\fpga\src\control\pend_top.v":3)
+Back to file 'E:\FPGAcompetition\competition_rev25_20261102\FPGA-Inverted-Pendulum\fpga\src\control\pend_top.v'("E:\FPGAcompetition\competition_rev25_20261102\FPGA-Inverted-Pendulum\fpga\src\control\pend_top.v":3)
+Analyzing Verilog file 'E:\FPGAcompetition\competition_rev25_20261102\FPGA-Inverted-Pendulum\fpga\src\control\adc_capture.v'
+Analyzing Verilog file 'E:\FPGAcompetition\competition_rev25_20261102\FPGA-Inverted-Pendulum\fpga\src\control\encoder_decode.v'
+Analyzing Verilog file 'E:\FPGAcompetition\competition_rev25_20261102\FPGA-Inverted-Pendulum\fpga\src\control\pwm_gen.v'
+Analyzing Verilog file 'E:\FPGAcompetition\competition_rev25_20261102\FPGA-Inverted-Pendulum\fpga\src\control\pid_q16.v'
+Analyzing Verilog file 'E:\FPGAcompetition\competition_rev25_20261102\FPGA-Inverted-Pendulum\fpga\src\control\fuzzy_pid_q16.v'
+Analyzing Verilog file 'E:\FPGAcompetition\competition_rev25_20261102\FPGA-Inverted-Pendulum\fpga\src\control\safety_guard.v'
+Analyzing Verilog file 'E:\FPGAcompetition\competition_rev25_20261102\FPGA-Inverted-Pendulum\fpga\src\control\position_feedback.v'
+Analyzing Verilog file 'E:\FPGAcompetition\competition_rev25_20261102\FPGA-Inverted-Pendulum\fpga\src\control\friction_state.v'
+Analyzing Verilog file 'E:\FPGAcompetition\competition_rev25_20261102\FPGA-Inverted-Pendulum\fpga\src\control\swing_once.v'
+Analyzing Verilog file 'E:\FPGAcompetition\competition_rev25_20261102\FPGA-Inverted-Pendulum\fpga\src\control\start_button.v'
+Analyzing Verilog file 'E:\FPGAcompetition\competition_rev25_20261102\FPGA-Inverted-Pendulum\fpga\src\control\key_motion_target.v'
+Analyzing Verilog file 'E:\FPGAcompetition\competition_rev25_20261102\FPGA-Inverted-Pendulum\fpga\src\control\motion_profile_rom.v'
+Analyzing Verilog file 'E:\FPGAcompetition\competition_rev25_20261102\FPGA-Inverted-Pendulum\fpga\src\control\motion_profile_sequencer.v'
+Analyzing Verilog file 'E:\FPGAcompetition\competition_rev25_20261102\FPGA-Inverted-Pendulum\fpga\src\control\spin_trajectory.v'
+Analyzing Verilog file 'E:\FPGAcompetition\competition_rev25_20261102\FPGA-Inverted-Pendulum\fpga\src\control\quiet_guard.v'
+Analyzing Verilog file 'E:\FPGAcompetition\competition_rev25_20261102\FPGA-Inverted-Pendulum\fpga\src\control\tof_receiver.v'
+WARN  (EX3073) : Port 'kp_scale_dbg' remains unconnected for this instance("E:\FPGAcompetition\competition_rev25_20261102\FPGA-Inverted-Pendulum\fpga\src\control\pend_top.v":953)
+Compiling module 'pend_top'("E:\FPGAcompetition\competition_rev25_20261102\FPGA-Inverted-Pendulum\fpga\src\control\pend_top.v":5)
+Compiling module 'adc_angle_filter'("E:\FPGAcompetition\competition_rev25_20261102\FPGA-Inverted-Pendulum\fpga\src\control\adc_capture.v":73)
+Compiling module 'adc_capture'("E:\FPGAcompetition\competition_rev25_20261102\FPGA-Inverted-Pendulum\fpga\src\control\adc_capture.v":3)
+WARN  (EX3791) : Expression size 13 truncated to fit in target size 12("E:\FPGAcompetition\competition_rev25_20261102\FPGA-Inverted-Pendulum\fpga\src\control\adc_capture.v":55)
+Compiling module 'encoder_decode'("E:\FPGAcompetition\competition_rev25_20261102\FPGA-Inverted-Pendulum\fpga\src\control\encoder_decode.v":3)
+Compiling module 'position_feedback'("E:\FPGAcompetition\competition_rev25_20261102\FPGA-Inverted-Pendulum\fpga\src\control\position_feedback.v":2)
+WARN  (EX3073) : Port 'd_input' remains unconnected for this instance("E:\FPGAcompetition\competition_rev25_20261102\FPGA-Inverted-Pendulum\fpga\src\control\swing_once.v":352)
+Compiling module 'swing_once'("E:\FPGAcompetition\competition_rev25_20261102\FPGA-Inverted-Pendulum\fpga\src\control\swing_once.v":2)
+WARN  (EX3791) : Expression size 17 truncated to fit in target size 16("E:\FPGAcompetition\competition_rev25_20261102\FPGA-Inverted-Pendulum\fpga\src\control\swing_once.v":311)
+Compiling module 'pid_q16'("E:\FPGAcompetition\competition_rev25_20261102\FPGA-Inverted-Pendulum\fpga\src\control\pid_q16.v":3)
+WARN  (EX3791) : Expression size 6 truncated to fit in target size 5("E:\FPGAcompetition\competition_rev25_20261102\FPGA-Inverted-Pendulum\fpga\src\control\swing_once.v":391)
+WARN  (EX2565) : Input 'd_input[31]' on this instance is undriven. Assigning to 0, simulation mismatch possible. Please assign the input or remove the declaration("E:\FPGAcompetition\competition_rev25_20261102\FPGA-Inverted-Pendulum\fpga\src\control\swing_once.v":352)
+WARN  (EX2565) : Input 'd_input[30]' on this instance is undriven. Assigning to 0, simulation mismatch possible. Please assign the input or remove the declaration("E:\FPGAcompetition\competition_rev25_20261102\FPGA-Inverted-Pendulum\fpga\src\control\swing_once.v":352)
+WARN  (EX2565) : Input 'd_input[29]' on this instance is undriven. Assigning to 0, simulation mismatch possible. Please assign the input or remove the declaration("E:\FPGAcompetition\competition_rev25_20261102\FPGA-Inverted-Pendulum\fpga\src\control\swing_once.v":352)
+WARN  (EX2565) : Input 'd_input[28]' on this instance is undriven. Assigning to 0, simulation mismatch possible. Please assign the input or remove the declaration("E:\FPGAcompetition\competition_rev25_20261102\FPGA-Inverted-Pendulum\fpga\src\control\swing_once.v":352)
+WARN  (EX2565) : Input 'd_input[27]' on this instance is undriven. Assigning to 0, simulation mismatch possible. Please assign the input or remove the declaration("E:\FPGAcompetition\competition_rev25_20261102\FPGA-Inverted-Pendulum\fpga\src\control\swing_once.v":352)
+WARN  (EX2565) : Input 'd_input[26]' on this instance is undriven. Assigning to 0, simulation mismatch possible. Please assign the input or remove the declaration("E:\FPGAcompetition\competition_rev25_20261102\FPGA-Inverted-Pendulum\fpga\src\control\swing_once.v":352)
+WARN  (EX2565) : Input 'd_input[25]' on this instance is undriven. Assigning to 0, simulation mismatch possible. Please assign the input or remove the declaration("E:\FPGAcompetition\competition_rev25_20261102\FPGA-Inverted-Pendulum\fpga\src\control\swing_once.v":352)
+WARN  (EX2565) : Input 'd_input[24]' on this instance is undriven. Assigning to 0, simulation mismatch possible. Please assign the input or remove the declaration("E:\FPGAcompetition\competition_rev25_20261102\FPGA-Inverted-Pendulum\fpga\src\control\swing_once.v":352)
+WARN  (EX2565) : Input 'd_input[23]' on this instance is undriven. Assigning to 0, simulation mismatch possible. Please assign the input or remove the declaration("E:\FPGAcompetition\competition_rev25_20261102\FPGA-Inverted-Pendulum\fpga\src\control\swing_once.v":352)
+WARN  (EX2565) : Input 'd_input[22]' on this instance is undriven. Assigning to 0, simulation mismatch possible. Please assign the input or remove the declaration("E:\FPGAcompetition\competition_rev25_20261102\FPGA-Inverted-Pendulum\fpga\src\control\swing_once.v":352)
+WARN  (EX2565) : Input 'd_input[21]' on this instance is undriven. Assigning to 0, simulation mismatch possible. Please assign the input or remove the declaration("E:\FPGAcompetition\competition_rev25_20261102\FPGA-Inverted-Pendulum\fpga\src\control\swing_once.v":352)
+WARN  (EX2565) : Input 'd_input[20]' on this instance is undriven. Assigning to 0, simulation mismatch possible. Please assign the input or remove the declaration("E:\FPGAcompetition\competition_rev25_20261102\FPGA-Inverted-Pendulum\fpga\src\control\swing_once.v":352)
+WARN  (EX2565) : Input 'd_input[19]' on this instance is undriven. Assigning to 0, simulation mismatch possible. Please assign the input or remove the declaration("E:\FPGAcompetition\competition_rev25_20261102\FPGA-Inverted-Pendulum\fpga\src\control\swing_once.v":352)
+WARN  (EX2565) : Input 'd_input[18]' on this instance is undriven. Assigning to 0, simulation mismatch possible. Please assign the input or remove the declaration("E:\FPGAcompetition\competition_rev25_20261102\FPGA-Inverted-Pendulum\fpga\src\control\swing_once.v":352)
+WARN  (EX2565) : Input 'd_input[17]' on this instance is undriven. Assigning to 0, simulation mismatch possible. Please assign the input or remove the declaration("E:\FPGAcompetition\competition_rev25_20261102\FPGA-Inverted-Pendulum\fpga\src\control\swing_once.v":352)
+WARN  (EX2565) : Input 'd_input[16]' on this instance is undriven. Assigning to 0, simulation mismatch possible. Please assign the input or remove the declaration("E:\FPGAcompetition\competition_rev25_20261102\FPGA-Inverted-Pendulum\fpga\src\control\swing_once.v":352)
+WARN  (EX2565) : Input 'd_input[15]' on this instance is undriven. Assigning to 0, simulation mismatch possible. Please assign the input or remove the declaration("E:\FPGAcompetition\competition_rev25_20261102\FPGA-Inverted-Pendulum\fpga\src\control\swing_once.v":352)
+WARN  (EX2565) : Input 'd_input[14]' on this instance is undriven. Assigning to 0, simulation mismatch possible. Please assign the input or remove the declaration("E:\FPGAcompetition\competition_rev25_20261102\FPGA-Inverted-Pendulum\fpga\src\control\swing_once.v":352)
+WARN  (EX2565) : Input 'd_input[13]' on this instance is undriven. Assigning to 0, simulation mismatch possible. Please assign the input or remove the declaration("E:\FPGAcompetition\competition_rev25_20261102\FPGA-Inverted-Pendulum\fpga\src\control\swing_once.v":352)
+WARN  (EX2565) : Input 'd_input[12]' on this instance is undriven. Assigning to 0, simulation mismatch possible. Please assign the input or remove the declaration("E:\FPGAcompetition\competition_rev25_20261102\FPGA-Inverted-Pendulum\fpga\src\control\swing_once.v":352)
+WARN  (EX2565) : Input 'd_input[11]' on this instance is undriven. Assigning to 0, simulation mismatch possible. Please assign the input or remove the declaration("E:\FPGAcompetition\competition_rev25_20261102\FPGA-Inverted-Pendulum\fpga\src\control\swing_once.v":352)
+WARN  (EX2565) : Input 'd_input[10]' on this instance is undriven. Assigning to 0, simulation mismatch possible. Please assign the input or remove the declaration("E:\FPGAcompetition\competition_rev25_20261102\FPGA-Inverted-Pendulum\fpga\src\control\swing_once.v":352)
+WARN  (EX2565) : Input 'd_input[9]' on this instance is undriven. Assigning to 0, simulation mismatch possible. Please assign the input or remove the declaration("E:\FPGAcompetition\competition_rev25_20261102\FPGA-Inverted-Pendulum\fpga\src\control\swing_once.v":352)
+WARN  (EX2565) : Input 'd_input[8]' on this instance is undriven. Assigning to 0, simulation mismatch possible. Please assign the input or remove the declaration("E:\FPGAcompetition\competition_rev25_20261102\FPGA-Inverted-Pendulum\fpga\src\control\swing_once.v":352)
+WARN  (EX2565) : Input 'd_input[7]' on this instance is undriven. Assigning to 0, simulation mismatch possible. Please assign the input or remove the declaration("E:\FPGAcompetition\competition_rev25_20261102\FPGA-Inverted-Pendulum\fpga\src\control\swing_once.v":352)
+WARN  (EX2565) : Input 'd_input[6]' on this instance is undriven. Assigning to 0, simulation mismatch possible. Please assign the input or remove the declaration("E:\FPGAcompetition\competition_rev25_20261102\FPGA-Inverted-Pendulum\fpga\src\control\swing_once.v":352)
+WARN  (EX2565) : Input 'd_input[5]' on this instance is undriven. Assigning to 0, simulation mismatch possible. Please assign the input or remove the declaration("E:\FPGAcompetition\competition_rev25_20261102\FPGA-Inverted-Pendulum\fpga\src\control\swing_once.v":352)
+WARN  (EX2565) : Input 'd_input[4]' on this instance is undriven. Assigning to 0, simulation mismatch possible. Please assign the input or remove the declaration("E:\FPGAcompetition\competition_rev25_20261102\FPGA-Inverted-Pendulum\fpga\src\control\swing_once.v":352)
+WARN  (EX2565) : Input 'd_input[3]' on this instance is undriven. Assigning to 0, simulation mismatch possible. Please assign the input or remove the declaration("E:\FPGAcompetition\competition_rev25_20261102\FPGA-Inverted-Pendulum\fpga\src\control\swing_once.v":352)
+WARN  (EX2565) : Input 'd_input[2]' on this instance is undriven. Assigning to 0, simulation mismatch possible. Please assign the input or remove the declaration("E:\FPGAcompetition\competition_rev25_20261102\FPGA-Inverted-Pendulum\fpga\src\control\swing_once.v":352)
+WARN  (EX2565) : Input 'd_input[1]' on this instance is undriven. Assigning to 0, simulation mismatch possible. Please assign the input or remove the declaration("E:\FPGAcompetition\competition_rev25_20261102\FPGA-Inverted-Pendulum\fpga\src\control\swing_once.v":352)
+WARN  (EX2565) : Input 'd_input[0]' on this instance is undriven. Assigning to 0, simulation mismatch possible. Please assign the input or remove the declaration("E:\FPGAcompetition\competition_rev25_20261102\FPGA-Inverted-Pendulum\fpga\src\control\swing_once.v":352)
+WARN  (EX2565) : Input 'd_clear' on this instance is undriven. Assigning to 0, simulation mismatch possible. Please assign the input or remove the declaration("E:\FPGAcompetition\competition_rev25_20261102\FPGA-Inverted-Pendulum\fpga\src\control\swing_once.v":352)
+Compiling module 'spin_trajectory'("E:\FPGAcompetition\competition_rev25_20261102\FPGA-Inverted-Pendulum\fpga\src\control\spin_trajectory.v":1)
+Extracting RAM for identifier 'table_data'("E:\FPGAcompetition\competition_rev25_20261102\FPGA-Inverted-Pendulum\fpga\src\control\spin_trajectory.v":15)
+WARN  (EX3791) : Expression size 48 truncated to fit in target size 32("E:\FPGAcompetition\competition_rev25_20261102\FPGA-Inverted-Pendulum\fpga\src\control\spin_trajectory.v":39)
+WARN  (EX3791) : Expression size 32 truncated to fit in target size 20("E:\FPGAcompetition\competition_rev25_20261102\FPGA-Inverted-Pendulum\fpga\src\control\spin_trajectory.v":50)
+WARN  (EX3791) : Expression size 32 truncated to fit in target size 20("E:\FPGAcompetition\competition_rev25_20261102\FPGA-Inverted-Pendulum\fpga\src\control\spin_trajectory.v":51)
+WARN  (EX3791) : Expression size 32 truncated to fit in target size 16("E:\FPGAcompetition\competition_rev25_20261102\FPGA-Inverted-Pendulum\fpga\src\control\spin_trajectory.v":72)
+Compiling module 'safety_guard'("E:\FPGAcompetition\competition_rev25_20261102\FPGA-Inverted-Pendulum\fpga\src\control\safety_guard.v":3)
+Compiling module 'fuzzy_pid_q16'("E:\FPGAcompetition\competition_rev25_20261102\FPGA-Inverted-Pendulum\fpga\src\control\fuzzy_pid_q16.v":2)
+WARN  (EX3791) : Expression size 6 truncated to fit in target size 5("E:\FPGAcompetition\competition_rev25_20261102\FPGA-Inverted-Pendulum\fpga\src\control\fuzzy_pid_q16.v":204)
+Compiling module 'fuzzy_pid_q16(E_STEP_SHIFT=4,EC_STEP_SHIFT=1,TUNE_ENABLE=0,SEPARATE_D=1)'("E:\FPGAcompetition\competition_rev25_20261102\FPGA-Inverted-Pendulum\fpga\src\control\fuzzy_pid_q16.v":2)
+WARN  (EX3791) : Expression size 6 truncated to fit in target size 5("E:\FPGAcompetition\competition_rev25_20261102\FPGA-Inverted-Pendulum\fpga\src\control\fuzzy_pid_q16.v":204)
+Compiling module 'pid_q16(SEPARATE_D=1)'("E:\FPGAcompetition\competition_rev25_20261102\FPGA-Inverted-Pendulum\fpga\src\control\pid_q16.v":3)
+Compiling module 'friction_state'("E:\FPGAcompetition\competition_rev25_20261102\FPGA-Inverted-Pendulum\fpga\src\control\friction_state.v":2)
+Compiling module 'pwm_gen(COMP_SHAPING=1)'("E:\FPGAcompetition\competition_rev25_20261102\FPGA-Inverted-Pendulum\fpga\src\control\pwm_gen.v":3)
+WARN  (EX3791) : Expression size 18 truncated to fit in target size 17("E:\FPGAcompetition\competition_rev25_20261102\FPGA-Inverted-Pendulum\fpga\src\control\pwm_gen.v":160)
+Compiling module 'start_button'("E:\FPGAcompetition\competition_rev25_20261102\FPGA-Inverted-Pendulum\fpga\src\control\start_button.v":3)
+Compiling module 'start_button(LONG_PRESS_MS=2000)'("E:\FPGAcompetition\competition_rev25_20261102\FPGA-Inverted-Pendulum\fpga\src\control\start_button.v":3)
+Compiling module 'motion_profile_sequencer'("E:\FPGAcompetition\competition_rev25_20261102\FPGA-Inverted-Pendulum\fpga\src\control\motion_profile_sequencer.v":3)
+Compiling module 'motion_profile_rom'("E:\FPGAcompetition\competition_rev25_20261102\FPGA-Inverted-Pendulum\fpga\src\control\motion_profile_rom.v":3)
+Compiling module 'key_motion_target'("E:\FPGAcompetition\competition_rev25_20261102\FPGA-Inverted-Pendulum\fpga\src\control\key_motion_target.v":3)
+WARN  (EX3045) : Case equality operator always evaluates to false due to comparison with 'x' or 'z'("E:\FPGAcompetition\competition_rev25_20261102\FPGA-Inverted-Pendulum\fpga\src\control\key_motion_target.v":120)
+WARN  (EX3791) : Expression size 42 truncated to fit in target size 36("E:\FPGAcompetition\competition_rev25_20261102\FPGA-Inverted-Pendulum\fpga\src\control\key_motion_target.v":222)
+Compiling module 'quiet_guard'("E:\FPGAcompetition\competition_rev25_20261102\FPGA-Inverted-Pendulum\fpga\src\control\quiet_guard.v":1)
+Compiling module 'tof_receiver'("E:\FPGAcompetition\competition_rev25_20261102\FPGA-Inverted-Pendulum\fpga\src\control\tof_receiver.v":1)
+Compiling module 'dbg_top(CLK_FREQ=50000000,BAUD=460800,PW=8,BUTTON_ENABLE=1)'("E:\FPGAcompetition\competition_rev25_20261102\FPGA-Inverted-Pendulum\fpga\src\debug\dbg_top.v":5)
+WARN  (EX3786) : Assignment to input 'p_rd_data'("E:\FPGAcompetition\competition_rev25_20261102\FPGA-Inverted-Pendulum\fpga\src\debug\dbg_proto.v":87)
+Compiling module 'dbg_proto(CLK_FREQ=50000000,BAUD=460800,PW=8,DEPTH=4096,AW=12,BUTTON_ENABLE=1,VER=16'b0000001000000111,REV=8'b00011001)'("E:\FPGAcompetition\competition_rev25_20261102\FPGA-Inverted-Pendulum\fpga\src\debug\dbg_proto.v":5)
+Compiling module 'uart_rx(CLK_FREQ=50000000,BAUD=460800)'("E:\FPGAcompetition\competition_rev25_20261102\FPGA-Inverted-Pendulum\fpga\src\common\uart_rx.v":3)
+Compiling module 'uart_tx(CLK_FREQ=50000000,BAUD=460800)'("E:\FPGAcompetition\competition_rev25_20261102\FPGA-Inverted-Pendulum\fpga\src\common\uart_tx.v":3)
+Compiling module 'crc8'("E:\FPGAcompetition\competition_rev25_20261102\FPGA-Inverted-Pendulum\fpga\src\common\crc8.v":3)
+Compiling module 'param_regs(PW=8,MAGIC=32'b00000000000000100000011100011001,STATUS_ENABLE=32'b00000000000000000000000000000001,BUTTON_ENABLE=1)'("E:\FPGAcompetition\competition_rev25_20261102\FPGA-Inverted-Pendulum\fpga\src\debug\param_regs.v":3)
+WARN  (EX3791) : Expression size 14 truncated to fit in target size 8("E:\FPGAcompetition\competition_rev25_20261102\FPGA-Inverted-Pendulum\fpga\src\debug\dbg_proto.v":351)
+Port is declared here("E:\FPGAcompetition\competition_rev25_20261102\FPGA-Inverted-Pendulum\fpga\src\debug\dbg_proto.v":35)
+Compiling module 'capture(RUNTIME_AVERAGE=1)'("E:\FPGAcompetition\competition_rev25_20261102\FPGA-Inverted-Pendulum\fpga\src\debug\capture.v":3)
+Extracting RAM for identifier 'mem'("E:\FPGAcompetition\competition_rev25_20261102\FPGA-Inverted-Pendulum\fpga\src\debug\capture.v":35)
+WARN  (EX3791) : Expression size 32 truncated to fit in target size 16("E:\FPGAcompetition\competition_rev25_20261102\FPGA-Inverted-Pendulum\fpga\src\debug\capture.v":38)
+WARN  (EX3791) : Expression size 32 truncated to fit in target size 21("E:\FPGAcompetition\competition_rev25_20261102\FPGA-Inverted-Pendulum\fpga\src\debug\capture.v":52)
+WARN  (EX3791) : Expression size 32 truncated to fit in target size 13("E:\FPGAcompetition\competition_rev25_20261102\FPGA-Inverted-Pendulum\fpga\src\debug\capture.v":126)
+WARN  (EX1998) : Net 'p_rd_data[31]' does not have a driver("E:\FPGAcompetition\competition_rev25_20261102\FPGA-Inverted-Pendulum\fpga\src\debug\dbg_top.v":77)
+NOTE  (EX0101) : Current top module is "pend_top"
+[5%] Running netlist conversion ...
+Running device independent optimization ...
+[10%] Optimizing Phase 0 completed
+[15%] Optimizing Phase 1 completed
+[25%] Optimizing Phase 2 completed
+Running inference ...
+[30%] Inferring Phase 0 completed
+[40%] Inferring Phase 1 completed
+[50%] Inferring Phase 2 completed
+[55%] Inferring Phase 3 completed
+Running technical mapping ...
+[60%] Tech-Mapping Phase 0 completed
+[65%] Tech-Mapping Phase 1 completed
+[75%] Tech-Mapping Phase 2 completed
+[80%] Tech-Mapping Phase 3 completed
+[90%] Tech-Mapping Phase 4 completed
+WARN  (NL0002) : The module "motion_profile_rom" instantiated to "u_rom" is swept in optimizing("E:\FPGAcompetition\competition_rev25_20261102\FPGA-Inverted-Pendulum\fpga\src\control\motion_profile_sequencer.v":31)
+[95%] Generate netlist file "E:\FPGAcompetition\competition_rev25_20261102\FPGA-Inverted-Pendulum\fpga\impl\gwsynthesis\project.vg" completed
+[100%] Generate report file "E:\FPGAcompetition\competition_rev25_20261102\FPGA-Inverted-Pendulum\fpga\impl\gwsynthesis\project_syn.rpt.html" completed
+GowinSynthesis finish

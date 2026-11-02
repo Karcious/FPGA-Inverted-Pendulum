@@ -4,13 +4,15 @@
 
 ## 下载与版本对应
 
-请到本仓库的 [Releases](https://github.com/Karcious/FPGA-Inverted-Pendulum/releases) 下载成品。Git 仓库保存源码、约束、必要测试和构建脚本；可执行程序和固件只放在 Release。
+请到本仓库的 [Releases](https://github.com/Karcious/FPGA-Inverted-Pendulum/releases) 下载成品。Git 仓库保存源码、约束、必要测试、构建脚本及综合布局布线报告；可执行程序和固件只放在 Release。
 
 | 文件 | 用途 | 来源 |
 | --- | --- | --- |
 | `FPGA-Balance-Studio-REV25-Windows-x64.zip` | Windows 上位机，完整解压后运行 EXE | 上游 REV25 程序及运行库，移除历代说明和旧参数，补入本说明；EXE 保持原样 |
 | `FPGA-REV25.fs` | J280 FPGA 位流 | 上游 REV25 `.fs`，逐字节保留；SHA-256 以 Release 校验文件为准 |
 | `ESP32-TOF-v1.2-Firmware.zip` | ESP32-WROOM 烧录包，包含启动程序、分区表、应用和脚本 | Arduino ESP32 core 2.0.17 编译的 v1.2 固件 |
+| `FPGA-REV25-Build-Reports.zip` | FPGA 工程、源码、完整综合布局布线结果及脚本 | Gowin V1.9.12.03 构建；烧录数据与独立 `.fs` 一致 |
+| `FPGA-REV25-Code-and-Programs.rar` | 三套代码、构建脚本、FPGA 报告与固件、上位机 EXE、ESP32 烧录文件 | 解压后查看各目录 README |
 | `SHA256SUMS.txt` | 文件完整性校验 | 发布文件的 SHA-256 |
 | `release_manifest.json` | 源提交、上游附件、本次文件与验证结果的对应关系 | 源码、构建与文件校验记录 |
 
@@ -50,6 +52,7 @@ fpga/
   src/fpga_project.sdc       50 MHz 时钟约束
   scripts/                  Gowin 构建、ModelSim/Icarus 回归、模糊数值模型
   tests/                    RTL 测试台及必要回放输入
+  build_records/REV25/      综合网表、综合/布局布线命令配置与报告
 ESP32/
   tof_ble/                  Arduino 工程和 VL53L1X 驱动、许可证
   scripts/                  编译、烧录、驱动测试入口
@@ -307,6 +310,8 @@ BLE 每包 20 字节、小端序：`TF` 标识、协议版本、模块在线位�
 - **ESP32：I2C 故障注入测试通过**；Arduino ESP32 core 2.0.17 编译通过，程序 1,133,957 / 1,310,720 字节，全局变量 39,524 / 327,680 字节。
 - **FPGA：Gowin V1.9.12.03 综合、布局布线通过**；50 MHz 约束下 Fmax 为 50.190 MHz，最差 setup slack 为 0.076 ns，setup/hold 违例均为 0。
 - **代码等价性：41 个运行源码文件核对通过**，ESP32 Release 源码与固定 Git 提交仅换行格式不同。
+
+综合、布局布线和位流生成统一由 `fpga/scripts/build.tcl` 执行（`run all`），ESP32 编译/烧录由 `ESP32/scripts/build.ps1`、`flash.ps1` 执行，上位机打包入口为 `上位机/build.py`。本次综合工程 `project.prj`、布局布线命令 `cmd.do`、器件配置 `device.cfg` 和完整时序报告保存在 [`fpga/build_records/REV25`](fpga/build_records/REV25)。时序报告入口为 `pnr/project.tr.html`，需与两个 `project_tr_*.html` 同目录保存。位流、布局数据库及可执行程序随 Release 完整包提供。
 
 ### 运行自动测试
 

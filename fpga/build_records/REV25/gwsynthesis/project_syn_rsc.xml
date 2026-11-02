@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Module name="pend_top" Register="2162" Alu="882" Lut="2581" T_Register="9049(2162)" T_Alu="4924(882)" T_Lut="14713(2581)" T_MULT36X36="8(0)" T_MULTALU36X18="2(0)" T_Bsram="18(0)">
+ <SubModule name="u_angle_filter" Register="71" Alu="85" Lut="101" T_Register="71(71)" T_Alu="85(85)" T_Lut="101(101)"/>
+ <SubModule name="u_adc" Register="53" Alu="18" Lut="30" T_Register="53(53)" T_Alu="18(18)" T_Lut="30(30)"/>
+ <SubModule name="u_enc" Register="75" Alu="48" Lut="43" T_Register="75(75)" T_Alu="48(48)" T_Lut="43(43)"/>
+ <SubModule name="u_position" Register="143" Alu="99" Lut="343" T_Register="143(143)" T_Alu="99(99)" T_Lut="343(343)"/>
+ <SubModule name="u_swing" Register="618" Alu="350" Lut="1746" MULTALU36X18="1" T_Register="785(618)" T_Alu="467(350)" T_Lut="1967(1746)" T_MULT36X36="2(0)" T_MULTALU36X18="1(1)">
+  <SubModule name="u_position_pid" Register="167" Alu="117" Lut="221" MULT36X36="2" T_Register="167(167)" T_Alu="117(117)" T_Lut="221(221)" T_MULT36X36="2(2)"/>
+ </SubModule>
+ <SubModule name="u_curve" Register="511" Alu="211" Lut="1219" MULT36X36="1" MULTALU36X18="1" Bsram="2" T_Register="511(511)" T_Alu="211(211)" T_Lut="1219(1219)" T_MULT36X36="1(1)" T_MULTALU36X18="1(1)" T_Bsram="2(2)"/>
+ <SubModule name="u_safety" Register="21" Alu="94" Lut="46" T_Register="21(21)" T_Alu="94(94)" T_Lut="46(46)"/>
+ <SubModule name="u_pid_ang" Register="779" Alu="1090" Lut="1402" T_Register="1042(779)" T_Alu="1288(1090)" T_Lut="1852(1402)" T_MULT36X36="2(0)">
+  <SubModule name="u_pid" Register="263" Alu="198" Lut="450" MULT36X36="2" T_Register="263(263)" T_Alu="198(198)" T_Lut="450(450)" T_MULT36X36="2(2)"/>
+ </SubModule>
+ <SubModule name="u_pid_pos" T_Register="423(0)" T_Alu="394(0)" T_Lut="682(0)" T_MULT36X36="3(0)">
+  <SubModule name="u_pid" Register="423" Alu="394" Lut="682" MULT36X36="3" T_Register="423(423)" T_Alu="394(394)" T_Lut="682(682)" T_MULT36X36="3(3)"/>
+ </SubModule>
+ <SubModule name="u_friction" Register="45" Alu="69" Lut="159" T_Register="45(45)" T_Alu="69(69)" T_Lut="159(159)"/>
+ <SubModule name="u_pwm_a" Register="143" Alu="109" Lut="284" T_Register="143(143)" T_Alu="109(109)" T_Lut="284(284)"/>
+ <SubModule name="u_pwm_b" Register="129" Alu="109" Lut="237" T_Register="129(129)" T_Alu="109(109)" T_Lut="237(237)"/>
+ <SubModule name="u_start_button" Register="20" Lut="34" T_Register="20(20)" T_Lut="34(34)"/>
+ <SubModule name="u_sw2_button" Register="38" Lut="70" T_Register="38(38)" T_Lut="70(70)"/>
+ <SubModule name="u_sw3_button" Register="38" Lut="70" T_Register="38(38)" T_Lut="70(70)"/>
+ <SubModule name="u_sw4_button" Register="38" Lut="70" T_Register="38(38)" T_Lut="70(70)"/>
+ <SubModule name="u_profile" Register="41" Lut="101" T_Register="41(41)" T_Lut="101(101)"/>
+ <SubModule name="u_key_motion" Register="458" Alu="759" Lut="1517" T_Register="458(458)" T_Alu="759(759)" T_Lut="1517(1517)"/>
+ <SubModule name="u_quiet" Register="157" Alu="62" Lut="459" T_Register="157(157)" T_Alu="62(62)" T_Lut="459(459)"/>
+ <SubModule name="u_tof" Register="211" Alu="24" Lut="91" T_Register="211(211)" T_Alu="24(24)" T_Lut="91(91)"/>
+ <SubModule name="u_dbg" Register="125" Alu="31" Lut="1" T_Register="2445(125)" T_Alu="206(31)" T_Lut="2757(1)" T_Bsram="16(0)">
+  <SubModule name="u_proto" Register="433" Alu="8" Lut="1174" T_Register="2129(433)" T_Alu="8(8)" T_Lut="2217(1174)">
+   <SubModule name="u_rx" Register="41" Lut="55" T_Register="41(41)" T_Lut="55(55)"/>
+   <SubModule name="u_tx" Register="31" Lut="46" T_Register="31(31)" T_Lut="46(46)"/>
+   <SubModule name="u_crc" Register="8" Lut="15" T_Register="8(8)" T_Lut="15(15)"/>
+   <SubModule name="u_params" Register="1616" Lut="927" T_Register="1616(1616)" T_Lut="927(927)"/>
+  </SubModule>
+  <SubModule name="u_capture" Register="191" Alu="167" Lut="539" Bsram="16" T_Register="191(191)" T_Alu="167(167)" T_Lut="539(539)" T_Bsram="16(16)"/>
+ </SubModule>
+</Module>
