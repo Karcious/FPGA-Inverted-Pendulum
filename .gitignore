@@ -1,0 +1,17 @@
+**/__pycache__/
+**/*.py[cod]
+**/.venv/
+**/build/
+**/dist/
+**/impl/
+**/logs/
+**/*.gprj.user
+**/*.vcd
+**/*.wlf
+**/*.fs
+**/*.bin
+**/*.elf
+**/*.exe
+**/*.zip
+**/capture.csv*
+**/parameters.json

@@ -1,0 +1,35 @@
+<?xml version="1" encoding="UTF-8"?>
+<!DOCTYPE gowin-fpga-project>
+<Project>
+    <Template>FPGA</Template>
+    <Version>5</Version>
+    <Device name="GW2A-55C" pn="GW2A-LV55PG484C8/I7">gw2a55c-005</Device>
+    <FileList>
+        <File path="src/common/crc8.v" type="file.verilog" enable="1"/>
+        <File path="src/common/uart_rx.v" type="file.verilog" enable="1"/>
+        <File path="src/common/uart_tx.v" type="file.verilog" enable="1"/>
+        <File path="src/control/pend_top.v" type="file.verilog" enable="1"/>
+        <File path="src/control/adc_capture.v" type="file.verilog" enable="1"/>
+        <File path="src/control/encoder_decode.v" type="file.verilog" enable="1"/>
+        <File path="src/control/pwm_gen.v" type="file.verilog" enable="1"/>
+        <File path="src/control/pid_q16.v" type="file.verilog" enable="1"/>
+        <File path="src/control/fuzzy_pid_q16.v" type="file.verilog" enable="1"/>
+        <File path="src/control/safety_guard.v" type="file.verilog" enable="1"/>
+        <File path="src/control/position_feedback.v" type="file.verilog" enable="1"/>
+        <File path="src/control/friction_state.v" type="file.verilog" enable="1"/>
+        <File path="src/control/start_button.v" type="file.verilog" enable="1"/>
+        <File path="src/control/key_motion_target.v" type="file.verilog" enable="1"/>
+        <File path="src/control/motion_profile_rom.v" type="file.verilog" enable="1"/>
+        <File path="src/control/motion_profile_sequencer.v" type="file.verilog" enable="1"/>
+        <File path="src/control/spin_trajectory.v" type="file.verilog" enable="1"/>
+        <File path="src/control/quiet_guard.v" type="file.verilog" enable="1"/>
+        <File path="src/control/tof_receiver.v" type="file.verilog" enable="1"/>
+        <File path="src/control/swing_once.v" type="file.verilog" enable="1"/>
+        <File path="src/debug/capture.v" type="file.verilog" enable="1"/>
+        <File path="src/debug/dbg_proto.v" type="file.verilog" enable="1"/>
+        <File path="src/debug/dbg_top.v" type="file.verilog" enable="1"/>
+        <File path="src/debug/param_regs.v" type="file.verilog" enable="1"/>
+        <File path="src/control/pend_top.cst" type="file.cst" enable="1"/>
+        <File path="src/fpga_project.sdc" type="file.sdc" enable="1"/>
+    </FileList>
+</Project>
