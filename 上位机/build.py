@@ -13,7 +13,7 @@ subprocess.run([sys.executable,'-m','PyInstaller','--noconfirm','--clean','--win
     '--specpath',str(ROOT/'build'),'--collect-submodules','bleak','--collect-submodules','winrt',
     '--exclude-module','tkinter','--exclude-module','matplotlib','--icon',str(ROOT/'assets/app.ico'),
     '--add-data',str(ROOT/'assets')+';assets',str(ROOT/'src/fpga_console.py')],check=True,cwd=ROOT)
-shutil.copy2(ROOT.parent/'readme.md',DEST/'readme.md')
+shutil.copy2(ROOT.parent/'README.md',DEST/'README.md')
 shutil.copytree(ROOT/'assets/licenses',DEST/'THIRD_PARTY_LICENSES/additional',dirs_exist_ok=True)
 for name in ('PySide6-Essentials','shiboken6','pyserial','pyinstaller','bleak','winrt-runtime'):
     dist=importlib.metadata.distribution(name)
